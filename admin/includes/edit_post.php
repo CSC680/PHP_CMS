@@ -125,20 +125,11 @@ if (isset($_POST['update_post'])){
                            
                         echo "<option value='{$cat_id}'>$cat_title</option> ";  
                            
-                           
-                           
-                           
-                           
-                           
-                           
+       
                            
                        }
                 
                 ?>
-                
-                
-                
-                
                 
                 
             </select>
