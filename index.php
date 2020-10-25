@@ -19,7 +19,7 @@
                 
                 
                 
-                $query = "SELECT * FROM posts";
+                $query = "SELECT * FROM posts ";
                 $select_all_post_query = mysqli_query($connection,$query);
                 
                   while($row=mysqli_fetch_assoc($select_all_post_query)){
@@ -30,6 +30,19 @@
                         $post_date =$row['post_date'];
                         $post_image=$row['post_image'];
                         $post_content=$row['post_content'];
+                        $post_status =$row['post_status'];
+                      
+                      
+                      if ($post_status == 'published'){
+                          
+                          
+                          echo "<h1> No POST FOUND </h1>";
+                          
+                          
+                      }
+                      else{
+
+                      
              ?>
                 
                    
@@ -57,7 +70,7 @@
 
                    
                    
-         <?php    } ?>
+         <?php          } } ?>
                 
 
             </div>
