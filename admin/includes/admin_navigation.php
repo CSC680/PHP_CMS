@@ -73,7 +73,7 @@
                     </li>
                     
                     <li>
-                        <a href="index-rtl.html"><i class="fa fa-info-circle"></i>  Profile</a>
+                        <a href="profile.php"><i class="fa fa-info-circle"></i>  Profile</a>
                     </li>
                 </ul>
             </div>
